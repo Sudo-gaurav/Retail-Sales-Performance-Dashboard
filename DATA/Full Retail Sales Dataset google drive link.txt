@@ -1,0 +1,4 @@
+Full Retail Sales Dataset (2+GB) Download Link:
+https://drive.google.com/file/d/1zx1FNlQme5yOO3-FSnOSKe4oNsYGSCSj/view?usp=sharing
+
+Note: This dataset is the complete cleaned version of the retail sales data used for the dashboard analysis. Please ensure you have sufficient bandwidth and storage if you choose to download it.
