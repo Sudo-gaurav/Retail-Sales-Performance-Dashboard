@@ -76,7 +76,7 @@ df = pd.read_csv("Retail_Sales_Large.csv", nrows=0)
 print(df.columns.tolist())
 ```
 
-### SQL for  Data Joining and Cleaning
+### SQL for  Data Joining 
 ```sql
 CREATE OR REPLACE VIEW v_full_retail AS
 SELECT 
