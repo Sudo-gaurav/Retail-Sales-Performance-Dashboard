@@ -26,8 +26,10 @@ Due to the large original retail sales dataset (>2GB), a cleaned sample dataset 
 ---
 
 ## Repository Structure
- retail-sales-performance-dashboard/ │ ├── data/ │ ├── retail_sales_sample.csv 
- Sample cleaned dataset (<100 MB) │ └── Full Retail Sales Dataset google drive link.txt # Link to the full 3GB+ dataset hosted externally
+ retail-sales-performance-dashboard/ │ 
+├── data/ │ ├── retail_sales_sample.csv  Sample cleaned dataset (<100 MB) │ 
+  └── Full Retail Sales Dataset google drive link.txt # Link to the full 2+GB dataset hosted 
+      externally
 ├── Retail_Sales_Performance_Dashboard.pbit # Power BI template dashboard file │ 
 ├── Retail_Sales_Dashboard.pdf # PDF snapshot of the dashboard │
 ├── README.md # Project documentation
