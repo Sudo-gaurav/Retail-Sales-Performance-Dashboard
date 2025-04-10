@@ -1,0 +1,23 @@
+Project Notes for Retail Sales Dashboard:
+
+1. Data Integration:
+   - The raw retail sales dataset (>2GB) was loaded into PostgreSQL.
+   - Joined with store_cities and product_hierarchy using SQL.
+   - A representative sample (<100MB) was exported for use in Power BI.
+
+2. Data Inspection:
+   - Python (pandas) was used to quickly inspect column headers due to the large file size.
+
+3. Data Cleaning & Transformation:
+   - Power Query in Power BI was used for additional cleaning (changing data types, removing unnecessary columns).
+   - The final dataset contains 14 key columns essential for analysis.
+
+4. Dashboard Development:
+   - The dashboard is built in Power BI, featuring KPIs, trend lines, and interactive slicers.
+   - Key insights include trends over time, store type performance, and product cluster analysis.
+
+Future Enhancements:
+   - Explore dynamic tooltips for more detailed drill-downs.
+   - Add additional metrics like YoY growth and advanced segmentation.
+
+For further questions or discussions, please reach out at Gauravtawri007@gmail.com.
