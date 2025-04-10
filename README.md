@@ -14,6 +14,7 @@ An interactive Power BI dashboard that analyzes retail sales performance across 
 - [Dashboard Highlights](#dashboard-highlights)
 - [How to Run / Explore](#how-to-run--explore)
 - [Additional Notes](#additional-notes)
+- [Documentation](#documentation)
 - [License](#license)
 - [Author](#author)
 
@@ -129,11 +130,13 @@ Due to GitHub's file size limitations, only a sample dataset is included. The fu
 Future updates may include enhanced drill-down features, dynamic tooltips, and additional visual insights based on further analysis.
 
 ---
+### Documentation
 
+- For a detailed explanation of the data processing workflow and project insights, please refer to the Project Notes.
+---
 ### License
-This project is licensed under the MIT License.
+
+- This project is licensed under the MIT License.
 ---
 ### Author
-Gaurav Tawri
-Gauravtawri007@gmail.com
-
+ Gaurav Tawri | Gauravtawri007@gmail.com
