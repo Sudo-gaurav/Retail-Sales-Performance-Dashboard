@@ -60,28 +60,23 @@ Due to the large original retail sales dataset (>2GB), a cleaned sample dataset 
      # Load only headers from the large CSV
      df = pd.read_csv("Retail_Sales_Large.csv", nrows=0)
      print(df.columns.tolist())
-     ```
-
-3. **Dashboard Creation:**
+ 3. **Dashboard Creation:**
    - The cleaned sample dataset was imported into Power BI via Power Query.
    - An interactive dashboard was built using KPI cards, line charts, and bar charts to show trends and comparisons across different dimensions.
-
+     
 ---
 
 ## Code Snippets
-
 ### Python for Column Inspection
-
 ```python
 import pandas as pd
 
 # Load only headers from the large CSV
 df = pd.read_csv("Retail_Sales_Large.csv", nrows=0)
 print(df.columns.tolist())
-
+```
 
 ### SQL for  Data Joining and Cleaning
-
 ```sql
 CREATE OR REPLACE VIEW v_full_retail AS
 SELECT 
@@ -102,44 +97,42 @@ LEFT JOIN store_cities sc
     ON rs.store_id = sc.store_id
 LEFT JOIN product_hierarchy ph
     ON rs.product_id = ph.product_id;
-
+```
 ---
-### dashboard highlights
+
+## dashboard highlights
 
 - KPI Cards: Display Total Sales, Total Revenue, Total Profit, and Profit Margin.
 - Monthly Trends: Line chart showing revenue trends over time.
 - Store Analysis: Bar chart comparing sales across various store types.
 - Geographical & Product Insights: Visuals detailing performance by city and product cluster.
 - Interactive Slicers: For dynamic filtering by date, store type, cluster, and other dimensions.
-
+---
 ## How to Run / Explore
 Dashboard:
-
-Open the Power BI template file (dashboards/Retail_Sales_Performance_Dashboard.pbit) using Power BI Desktop.
-
-Interact with the dashboard using the built-in slicers (e.g., date range, store type, cluster).
+- Open the Power BI template file (dashboards/Retail_Sales_Performance_Dashboard.pbit) using Power BI Desktop.
+- Interact with the dashboard using the built-in slicers (e.g., date range, store type, cluster).
 
 Dataset:
-
-The file data/retail_sales_sample.csv is the cleaned sample used in the dashboard.
-For the full dataset (2+GB), please refer to the download link provided in data/full_retail_sales_data_link.txt.
-Static Report:
+-The file data/retail_sales_sample.csv is the cleaned sample used in the dashboard.
+-For the full dataset (2+GB), please refer to the download link provided in -data/full_retail_sales_data_link.txt.
+-Static Report:
 View reports/Retail_Sales_Dashboard.pdf for a snapshot view of the dashboard.
 
 ---
 
 ### Additional Notes
-File Size Consideration:
+- File Size Consideration:
 Due to GitHub's file size limitations, only a sample dataset is included. The full dataset (~2+GB) is available via an external link in data/full_retail_sales_dataset_link.txt.
 
-Future Enhancements:
+- Future Enhancements:
 Future updates may include enhanced drill-down features, dynamic tooltips, and additional visual insights based on further analysis.
 
 ---
 
 ### License
 This project is licensed under the MIT License.
-
+---
 ### Author
 Gaurav Tawri
 Gauravtawri007@gmail.com
